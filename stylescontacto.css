@@ -1,12 +1,7 @@
-.encabezado{
-    background-color: aqua;
-}
-
 .titulo{
     width: 100%;
     height: auto;
     text-align: center;
-    background-color: aquamarine;
     display: block;
 }
 
@@ -23,6 +18,8 @@
     text-align: center;
     background-color:#34495E;
     color: #ECF0F1;
+    padding-top: 1rem; 
+    padding-bottom:1rem;
 }
 
 .logos img{
