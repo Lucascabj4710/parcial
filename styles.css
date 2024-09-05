@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+#titulo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.principal {
+    text-align: center;
+    padding: 0 10px;
+}
+
+#imagen1 {
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
+}
+
+#parrafo1 {
+    font-size: 1.4rem; 
+    margin: 20px;
+}
+
+#parrafoCafe {
+    font-size: 1.2rem; 
+    margin: 20px;
+}
+
+.imagenesLinks {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagenesLinks img {
+    width: 100%; 
+    max-width: 300px;
+    height: auto; 
+    margin: 10px;
+}
+
+#video1 {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto; 
+}
+
+#videos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    gap: 0px;
+}
+
+#videos iframe, #videos video {
+    width: 100%; 
+    max-width: 640px; 
+    height: auto; 
+}
+
+#mapa {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: rgb(27, 23, 23);
+    color: chartreuse;
+    font-size: 1.875rem; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+#mapa iframe {
+    width: 100%; 
+    max-width: 100%; 
+    height: 300px; 
+}
+
+@media (max-width: 768px) {
+    #parrafo1, #parrafoCafe {
+        font-size: 1.2rem; 
+    }
+
+    #mapa {
+        font-size: 1.5rem; 
+    }
+
+    .imagenesLinks img {
+        max-width: 100%; 
+    }
+
+    #videos {
+        flex-direction: column; 
+    }
+}
+
+@media (max-width: 480px) {
+    #parrafo1, #parrafoCafe {
+        font-size: 1rem; 
+    }
+
+    #mapa {
+        font-size: 1.2rem; 
+    }
+}
